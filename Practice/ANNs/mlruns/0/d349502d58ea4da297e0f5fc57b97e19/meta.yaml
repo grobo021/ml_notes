@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rishab/Documents/ml/tf_learning_jose/Practice/ANNs/mlruns/0/d349502d58ea4da297e0f5fc57b97e19/artifacts
+end_time: 1609168812790
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: d349502d58ea4da297e0f5fc57b97e19
+run_uuid: d349502d58ea4da297e0f5fc57b97e19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1609168812720
+status: 3
+tags: []
+user_id: rishab
