@@ -1,11 +1,15 @@
 # External Resources
 - [Rules of ML](https://developers.google.com/machine-learning/guides/rules-of-ml)
 - [Neural Networks](https://en.wikipedia.org/wiki/Neural_network)
+- [Dot Product Multiplication Demo](http://matrixmultiplication.xyz)
+- [Cool YT Video about Tensors](https://www.youtube.com/watch?v=f5liqUk0ZTw)
 
 # Fundamentals
 - **Artificial Intelligence** - Intelligence shown by computers.
 - **Machine Learning** - A subset of AI which is able to learn without explicit instructions, using algorithms and statistical informations.
 - **Deep Learning** - A subset of ML which uses multiple layers of processing to extract higher levels of information from data
+
+Machine Learning and AI is good because it helps us make computers do things hard to describe
 
 ## Programming vs Machine Learning Algorithms
 Programming takes some Inputs and Rules, to create an Output
@@ -31,9 +35,9 @@ Tip - If you can code a **SIMPLE** rule based system instead of an ML Algorithm,
 1. When a human needs to understand the deep learning algorithm's patterns
 2. When a simple rule based system is possible
 3. When we cannot afford **ANY** errors
-4. When you are lacking data (can usually be solved though)
+4. When you are lacking data (can usually be solved though) 
 
-# Structured Data vs Unstructured Data
+## Types of Data
 - Structured Data is spread into rows and columns, like in an excel sheet
 - Unstructured Data is raw data that has not been organised, for example images, social media posts, etc.
 
@@ -42,7 +46,7 @@ and Deep Learning Algorithms like Neural Networks work better with Unstructured 
 
 *This can change depending on how we represent the problem.*
 
-# Neural Networks
+## Neural Networks
 It is a network/circuit of neurons. These can be our braincells or artificial neurons in the computer.
 
 ```md
@@ -54,8 +58,46 @@ A neural network has an input layer which takes the data, multiple hidden layers
 
 ![neural network](./images/neuralnetwork.png)
 
-# Types of Learning
+## Types of Learning
 - Supervised - Has Labels
-- Semi supervised - Some Labels (the data with no labels is used for testing)
-- Unsupervised - No Labels
+- Unsupervised - The AI labels the data on its own
 - Transfer Learning - Using patterns from one deep learning model in another model
+- Reinforcement Learning - Learning with awards
+    - The award can be as simple as a score
+
+## Types of Problems
+- Classification - When we need to classify things
+    - Binary Classification = two choices
+    - Multi-class Classification = more than two choices
+
+- Regression - Predicting a number
+
+## Spliting of Data
+Data is usually split into a training, validation and test set.
+This can be compared to the course material, practice exam and final exam a school/tuition/college/university provides.
+
+# What is a tensor?
+A container which can house data in N-Dimensions
+
+[Cool YT Video about Tensors](https://www.youtube.com/watch?v=f5liqUk0ZTw)
+
+## Element-vise vs Dot Product Multiplication
+### Element-vise
+|     |     |     |     |     |     |      |      |
+| --- | --- | --- | --- | --- | --- | ---- | ---- |
+|  A  |  B  |  *  |  E  |  F  |  =  | A\*E | B\*F |
+|  C  |  D  |     |  G  |  H  |     | C\*G | D\*H |
+
+### Dot Product
+|     |     |     |     |     |     |     |                    |                    |
+| --- | --- | --- | --- | --- | --- | --- | ------------------ | ------------------ |
+|  A  |  B  |  C  |     |  J  |  K  |     | A\*J + B\*L + C\*N | A\*K + B\*M + C\*O |
+|  D  |  E  |  F  |  *  |  L  |  M  |  =  | D\*J + E\*L + F\*N | D\*K + E\*M + F\*O |
+|  G  |  H  |  I  |     |  N  |  O  |     | G\*J + H\*L + I\*N | G\*K + H\*M + I\*O |
+
+
+**3**, *3* <--> *3*, **2** --> **3**, **2**
+
+Italic Numbers must match, resulting matrix pattern uses bold numbers
+
+[Live Demo of Dot Product Multiplication](http://matrixmultiplication.xyz)
