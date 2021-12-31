@@ -101,3 +101,12 @@ A container which can house data in N-Dimensions
 Italic Numbers must match, resulting matrix pattern uses bold numbers
 
 [Live Demo of Dot Product Multiplication](http://matrixmultiplication.xyz)
+
+# Regression Problems
+## Dependent an independent variables
+When we try to solve a regression problem, we have some dependent or independent variables.
+
+For example, when predicting the price of a house, independent variables may include number of rooms, beds, etc.
+The price of our house is dependent on these variables, and is therefore a dependent variable.
+
+The Output in a regression problem is the dependent variable and the inputs are the independent variables.
