@@ -5,9 +5,11 @@
 - [Cool YT Video about Tensors](https://www.youtube.com/watch?v=f5liqUk0ZTw)
 
 # Fundamentals
-- **Artificial Intelligence** - Intelligence shown by computers.
-- **Machine Learning** - A subset of AI which is able to learn without explicit instructions, using algorithms and statistical informations.
-- **Deep Learning** - A subset of ML which uses multiple layers of processing to extract higher levels of information from data
+**Artificial Intelligence** - Intelligence shown by computers.
+
+**Machine Learning** - A subset of AI which is able to learn without explicit instructions, using algorithms and statistical informations.
+
+**Deep Learning** - A subset of ML which uses multiple layers of processing to extract higher levels of information from data
 
 Machine Learning and AI is good because it helps us make computers do things hard to describe
 
@@ -59,18 +61,19 @@ A neural network has an input layer which takes the data, multiple hidden layers
 ![neural network](./images/neuralnetwork.png)
 
 ## Types of Learning
-- Supervised - Has Labels
-- Unsupervised - The AI labels the data on its own
-- Transfer Learning - Using patterns from one deep learning model in another model
-- Reinforcement Learning - Learning with awards
+**Supervised** - Has Labels
+**Unsupervised** - The AI labels the data on its own
+**Transfer Learning** - Using patterns from one deep learning model in another model
+**Reinforcement Learning** - Learning with awards
     - The award can be as simple as a score
 
 ## Types of Problems
-- Classification - When we need to classify things
-    - Binary Classification = two choices
-    - Multi-class Classification = more than two choices
+**Classification** - When we need to classify things
+    - **Binary Classification** - two choices
+    - **Multi-class Classification** - more than two choices
+    - **Multi-label Classification** - adding labels to data
 
-- Regression - Predicting a number
+**Regression** - Predicting a number
 
 ## Spliting of Data
 Data is usually split into a training, validation and test set.
@@ -110,3 +113,8 @@ For example, when predicting the price of a house, independent variables may inc
 The price of our house is dependent on these variables, and is therefore a dependent variable.
 
 The Output in a regression problem is the dependent variable and the inputs are the independent variables.
+
+## Normalisation and Standardization
+**Normalisation** - The scaling of numerical values between a range (usually 0 to 1) so it is easier for an AI to understans.
+
+**Standardization** - Removes the mean and divides all values by standard deviation so that the scale is normally didstributed (like a bell curve)
